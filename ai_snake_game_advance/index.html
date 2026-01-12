@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🐍 AI Snake Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🐍 AI Snake Game</h1>
+    <p class="subtitle">Manual & AI-Powered Snake using BFS Pathfinding</p>
+  </header>
+
+  <section class="status">
+    <div>Score: <span id="score">0</span></div>
+    <div>Mode: <span id="mode">Manual</span></div>
+  </section>
+
+  <main>
+    <canvas id="game" width="400" height="400"></canvas>
+  </main>
+
+  <section class="controls">
+    <button onclick="setManual()">Manual 🎮</button>
+    <button onclick="setAI()">AI 🤖</button>
+    <button onclick="resetGame()">Reset 🔄</button>
+  </section>
+
+  <footer>
+    <small>Built by Vishaal S • AI Snake Game</small>
+  </footer>
+
+  <!-- IMPORTANT: ES Module -->
+  <script type="module" src="main.js"></script>
+
+</body>
+</html>
+ 
